@@ -1,6 +1,6 @@
-### Weather Fetch Api 
+# Weather Fetch Api 
 
-# Bu proje içerisinde Hava Durumu verileri anlık çekilmiştir
+### Bu proje içerisinde Hava Durumu verileri anlık çekilmiştir
 
 <p> Çalıştırmak İçin </p>
 
