@@ -15,13 +15,15 @@ class App extends Component {
 
   }
 
+  //Api Fetch
+  
   handleClick = async (e) => {
     e.preventDefault();
     const city = e.target.elements.city.value;
     const api = await fetch(`http://api.openweathermap.org/data/2.5/weather?q=${city}&appid=adf166eabda1d997c8dde75a075e5903`);
     const rtr = await api.json();
     this.setState({
-      temp: (rtr.main.temp) - 272,
+      temp: (rtr.main.temp) - 272, // Celcius Dönüşümü 
       humidity: (rtr.main.humidity)
 
     });
