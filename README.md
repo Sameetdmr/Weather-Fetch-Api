@@ -1,8 +1,8 @@
-# Weather Fetch Api 
+# Weather Fetch Api
 
-### Bu proje içerisinde Hava Durumu verileri anlık çekilmiştir
+### Weather data was taken in this project
 
-<p> Çalıştırmak İçin </p>
+<p>To Run</p>
 
 ### `git clone "repo link"`
 ### `cd weather`
